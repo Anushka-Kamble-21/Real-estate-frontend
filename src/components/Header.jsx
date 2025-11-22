@@ -23,7 +23,7 @@ export default function Header() {
           <Link to="/inquiry" className="hover:text-blue-600 transition">Inquiry</Link>
         </div>
 
-        {/* Desktop Buttons */}
+        {/* Desktop Buttons 
         <div className="hidden md:flex items-center gap-6">
           <button className="text-gray-700 hover:text-blue-600 transition font-medium">
             Login
@@ -32,7 +32,7 @@ export default function Header() {
           <button className="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition font-semibold shadow-md">
             Register
           </button>
-        </div>
+        </div> */}
 
         {/* Mobile Menu Button */}
         <button 
@@ -54,11 +54,11 @@ export default function Header() {
           <Link to="/inquiry" className="block hover:text-blue-600 transition" onClick={() => setOpen(false)}>Inquiry</Link>
 
           <hr className="border-gray-300" />
-
+          {/*
           <button className="block w-full text-left hover:text-blue-600 transition">Login</button>
           <button className="block w-full bg-blue-600 text-white px-4 py-2 rounded-lg text-center hover:bg-blue-700 transition font-semibold">
             Register
-          </button>
+          </button> */}
 
         </div>
       )}
